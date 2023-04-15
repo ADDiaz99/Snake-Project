@@ -5,6 +5,18 @@ from settings import *
 # Set the dimensions of the screen
 SCREEN_WIDTH = WIDTH        #Located in settings
 SCREEN_HEIGHT = HEIGHT
+#Classes
+class Game:
+    def __init__(self):
+        pass
+
+
+class Snake:
+    def __init__(self):
+        block = pygame.image.load("resources/sprites/tile000.png").convert()
+        block_x = 100
+        block_y = 100
+
 
 #defs
 def draw_block():
