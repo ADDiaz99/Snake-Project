@@ -5,6 +5,7 @@ from settings import *
 # Set the dimensions of the screen
 SCREEN_WIDTH = WIDTH        #Located in settings
 SCREEN_HEIGHT = HEIGHT
+
 #Classes
 class Game:
     def __init__(self):
