@@ -6,6 +6,7 @@ from settings import *
 SCREEN_WIDTH = WIDTH        #Located in settings
 SCREEN_HEIGHT = HEIGHT
 
+
 #Classes
 class Game:
     def __init__(self):
